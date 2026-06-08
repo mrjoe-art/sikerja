@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SIKERJA MOBILE</title>
+    <style>
+        /* Menghilangkan margin bawaan browser */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #0f172a; /* Warna latar gelap selaras dengan tema aplikasi */
+        }
+
+        /* Konfigurasi Iframe Responsif Layar Penuh */
+        .iframe-container {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="iframe-container">
+        <!-- Tautan Google Apps Script Anda yang dibungkus Iframe -->
+        <iframe 
+            src="https://script.google.com/macros/s/AKfycbw7GGNUvxmTAsafsNMRnRdeb6p01CRubyMw1MXlCf7FggwEwU8ZJP3f1SpYjHjreSoeAw/exec" 
+            allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; laser-insecure-background;"
+            sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts text/html">
+        </iframe>
+    </div>
+
+</body>
+</html>
